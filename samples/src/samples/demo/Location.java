@@ -4,7 +4,25 @@ public class Location {
 
 	
 	private String name;
+	private int locationId;
+	private int description;
 	
+	public int getLocationId() {
+		return locationId;
+	}
+
+	public void setLocationId(int locationId) {
+		this.locationId = locationId;
+	}
+
+	public int getDescription() {
+		return description;
+	}
+
+	public void setDescription(int description) {
+		this.description = description;
+	}
+
 	public String getName() {
 		return name;
 	}
